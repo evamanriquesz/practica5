@@ -7,7 +7,7 @@ http://localhost:8080/MostrarForm
 
 [![](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/evamanriquesz/practica5)
 
-Nota: En GitPod ocurre un error de compilación relacionado con Maven que no ocurría antes
+Nota: En GitPod ocurre un error de compilación relacionado con Maven que no ocurría al probarlo en local.
 
 ## OBJETIVO DE LA PRÁCTICA
 El objetivo de esta práctica es familiarizarse con el uso de SpringBoot.
