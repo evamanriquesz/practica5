@@ -7,6 +7,8 @@ http://localhost:8080/MostrarForm
 
 [![](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/evamanriquesz/practica5)
 
+Nota: En GitPod ocurre un error de compilación relacionado con Maven que no ocurría antes
+
 ## OBJETIVO DE LA PRÁCTICA
 El objetivo de esta práctica es familiarizarse con el uso de SpringBoot.
 
@@ -32,7 +34,7 @@ extra que consideres importante.
 
 Cuando introduces tus datos, y pulsas a "Enviar Formulario", se comprueba que todos los campos estén rellenos, que la longitud de 
 los campos de texto esté entre 2 y otro valor (dependiendo de cada campo), y que la edad sea mayor que 18 años. 
-Si todo va bien, se redirige al endpoint EnviarForm, donde te dice que, efectivamente, todo es correcto. Para la validación de los campos, 
+Si todo va bien, se redirige al endpoint EnviarForm, que es la clase formularioAceptado, donde te dice que, efectivamente, todo es correcto. Para la validación de los campos, 
 he utilizado Java Bean Validation's @Valid constraint. 
 
 Para el correcto funcionamiento del formulario he hecho uso de Thymeleaf en contactanos.html. 
@@ -44,37 +46,14 @@ Si ocurre algún error en el funcionamiento de la práctica, se te redirige a la
 ## PROBAR LA PRÁCTICA
 
 Para probar el correcto funcionamiento de la práctica: 
-* En Inicio
-  * Deslizarte por el carrusel de imágenes
-  * Pinchar en Contáctanos en la alerta para comprobar que te lleva a la página de Contáctanos
-  * Eliminar la alerta pulsando en la X
-  * Leer las noticias
-  * Pinchar en "Pinche aquí" para comprobar que te lleva al lugar correcto
-  * Cambiar de página usando los botones superiores o el objeto de paginación inferior
-  * Acceder a las redes sociales 
-  * Doble click en las fechas para subir arriba
-* En Productos
-  * Ojear todos los productos
-  * Acceder a la página web del Iphone 13 Pro para comprarlo
-  * Cambiar de página usando los botones superiores o el objeto de paginación inferior
-  * Acceder a las redes sociales
-  * Doble click en las fechas para subir arriba
-*En Iniciativas Sostenibles
-  * Deslizarte para ver todas las imágenes
-  * Pinchar en cualquiera de ellas para comprobar que se abre un Objeto Modal 
-  * Cerrar ese objeto
-  * Cambiar de página usando los botones superiores o el objeto de paginación inferior
-  * Acceder a las redes sociales
-  * Doble click en las fechas para subir arriba
-* Bolsa 
-  * Deslizarte para ver todos los valores (y comprobar en Internet que son correctos).
-    * Nota. Los datos que nos ofrecerá son los del día anterior y los de hace dos, ya que disponemos de máximos, mínimos, apertura y cierre.
-  * Cambiar de página usando los botones superiores o el objeto de paginación inferior
-  * Acceder a las redes sociales
-  * Doble click en las fechas para subir arriba
+* Navegar por las distintas páginas
 * Contáctanos
   * Rellenar el formulario
-  * Probar a equivocarse rellenando los campos para ver cómo te avisa
+  * Probar a equivocarse rellenando los campos para ver cómo te avisa de los errores
   * Cambiar de página usando los botones superiores o el objeto de paginación inferior
   * Acceder a las redes sociales
   * Doble click en las fechas para subir arriba
+* En la clase formularioAceptado, que es a la que se te redirige cuando envias el formulario correctamente, puedes leer los datos que 
+has introducido y volver atrás pulsando sobre cerrar
+* También puedes acceder a las redes sociales o a las otras páginas, pulsando sobre sus botones
+
